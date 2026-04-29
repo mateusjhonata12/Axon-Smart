@@ -1,0 +1,24 @@
+{
+  "entities": {
+    "Project": {
+      "title": "Project",
+      "description": "A past project or collection item from AXON SMART",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "imageUrl": { "type": "string" },
+        "category": { "type": "string" },
+        "year": { "type": "string" },
+        "order": { "type": "number" }
+      },
+      "required": ["title", "description", "category"]
+    }
+  },
+  "firestore": {
+    "projects": {
+      "schema": "Project",
+      "description": "Collection of past projects and premium collections"
+    }
+  }
+}

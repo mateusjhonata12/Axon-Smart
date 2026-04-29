@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-nero: #0A0A0A;
+  --color-cold-gray: #8E8E93;
+}
+
+@layer base {
+  body {
+    @apply bg-white text-nero antialiased;
+    font-feature-settings: "ss01", "ss02", "cv01", "cv11";
+  }
+}
+
+@layer utilities {
+  .tracking-luxury {
+    letter-spacing: 0.15em;
+  }
+  .tracking-hero {
+    letter-spacing: -0.02em;
+  }
+  .bg-premium-gradient {
+    background: linear-gradient(135deg, #FFFFFF 0%, #F5F5f7 100%);
+  }
+  .shimmer {
+    background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.4) 50%, transparent 100%);
+    background-size: 200% 100%;
+    animation: shimmer 2s infinite;
+  }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
