@@ -19,7 +19,7 @@ export default function Footer() {
             />
           </Link>
           <a 
-            href="https://wa.me/yournumber" 
+            href="https://wa.me/5579996294087" 
             target="_blank" 
             rel="noopener noreferrer"
             className="bg-nero text-white px-10 py-5 text-[10px] uppercase tracking-[0.3em] font-bold hover:bg-cold-gray transition-all shadow-xl"

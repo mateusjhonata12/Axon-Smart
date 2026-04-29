@@ -80,7 +80,7 @@ export default function Hero() {
                 Descobrir Coleção
               </Link>
               <a 
-                href="https://wa.me/yournumber" 
+                href="https://wa.me/5579996294087" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-block bg-white text-nero border border-nero/10 px-10 md:px-14 py-6 md:py-7 text-[10px] uppercase tracking-[0.3em] font-bold transition-all hover:bg-gray-50 active:scale-95 shadow-xl"

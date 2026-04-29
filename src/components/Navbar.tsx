@@ -53,7 +53,7 @@ export default function Navbar() {
           )
         ))}
         <a 
-          href="https://wa.me/yournumber" 
+          href="https://wa.me/5579996294087" 
           target="_blank" 
           rel="noopener noreferrer"
           className="ml-4 bg-nero text-white px-6 py-3 text-[10px] uppercase tracking-widest font-bold hover:bg-cold-gray transition-all shadow-lg"
