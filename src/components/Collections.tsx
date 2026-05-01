@@ -45,7 +45,7 @@ export default function Collections() {
       id: 'fap-line',
       title: 'Fap Line',
       description: 'Sistema inovador em fase de desenvolvimento, focado em otimização de fluxos e precisão operacional de atendimento presencial.',
-      longDescription: 'O Fap Line representa a vanguarda da automação de processos dentro do ecossistema AXON. Desenvolvido para oferecer visibilidade em tempo real e controle absoluto sobre fluxos de trabalho complexos, este sistema utiliza algoritmos avançados para reduzir gargalos e maximizar a eficiência operacional. Atualmente em fase Alpha, a solução já demonstra incrementos significativos em performance nos ambientes de teste controlados.',
+      longDescription: 'O Fap Line representa a vanguarda da gestão de fluxos de atendimento dentro do ecossistema AXON. Desenvolvido para oferecer visibilidade em tempo real e controle absoluto sobre a jornada do usuário, este sistema utiliza algoritmos avançados para otimizar a distribuição de chamados e maximizar a eficiência da recepção. Atualmente em fase Alpha, a solução já demonstra incrementos significativos na redução de tempos de espera nos ambientes de teste controlados.',
       category: 'Pré-Projeto',
       year: '2024'
     },
